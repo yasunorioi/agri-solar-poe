@@ -11,7 +11,7 @@ library.
 ## Hardware
 
 - **MCU**: [M5Stack ATOM Lite](https://docs.m5stack.com/en/core/ATOM%20Lite) (ESP32-PICO-D4)
-- **PoE / Ethernet**: M5Stack ATOM PoE Base (W5500 on SPI)
+- **PoE / Ethernet**: [M5Stack ATOM PoE Base](https://docs.m5stack.com/en/atom/Atomic%20PoE%20Base) (W5500 on SPI)
 - **ADC**: M5Stack ADC Unit V1.1 (ADS1110, I²C 0x48)
 - **Sensor**: PVSS-03 all-sky pyranometer (0–1 V → 0–1000 W/m² linear)
   - Other voltage-output pyranometers also work with the same ADC. Set the calibration via `wm2_per_volt`

@@ -10,7 +10,7 @@
 ## ハードウェア
 
 - **MCU**: [M5Stack ATOM Lite](https://docs.m5stack.com/en/core/ATOM%20Lite) (ESP32-PICO-D4)
-- **PoE / Ethernet**: M5Stack ATOM PoE Base (W5500 on SPI)
+- **PoE / Ethernet**: [M5Stack ATOM PoE Base](https://docs.m5stack.com/en/atom/Atomic%20PoE%20Base) (W5500 on SPI)
 - **ADC**: M5Stack ADC Unit V1.1 (ADS1110, I²C 0x48)
 - **センサー**: PVSS-03 全天日射計 (0–1 V → 0–1000 W/m² リニア)
   - 他の電圧出力型 pyranometer も同 ADC で OK。calibration を `wm2_per_volt` で設定
