@@ -2,7 +2,7 @@
 
 [🇯🇵 日本語](README_ja.md) · **English**
 
-M5Stack ATOM PoE Kit + M5Stack ADC Unit V1.1 (ADS1110) + PVSS-03 all-sky pyranometer
+[M5Stack ATOM PoE Kit](https://docs.m5stack.com/en/atom/atom_poe) + [M5Stack ADC Unit V1.1 (ADS1110)](https://docs.m5stack.com/en/unit/Unit-ADC_V1.1) + [PVSS-03](https://www.sanko-web.co.jp/product/pvssap/product-pvss-03/) all-sky pyranometer
 → MQTT + UECS-CCM.
 Just a thin layer on top of the
 [agri-node-poe-core](https://github.com/yasunorioi/agri-node-poe-core)
@@ -10,7 +10,7 @@ library.
 
 ## Hardware
 
-- **MCU**: M5Stack ATOM Lite (ESP32-PICO-D4)
+- **MCU**: [M5Stack ATOM Lite](https://docs.m5stack.com/en/core/ATOM%20Lite) (ESP32-PICO-D4)
 - **PoE / Ethernet**: M5Stack ATOM PoE Base (W5500 on SPI)
 - **ADC**: M5Stack ADC Unit V1.1 (ADS1110, I²C 0x48)
 - **Sensor**: PVSS-03 all-sky pyranometer (0–1 V → 0–1000 W/m² linear)

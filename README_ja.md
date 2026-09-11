@@ -2,14 +2,14 @@
 
 **日本語** · [🇬🇧 English](README_en.md)
 
-M5Stack ATOM PoE Kit + M5Stack ADC Unit V1.1 (ADS1110) + PVSS-03 全天日射計
+[M5Stack ATOM PoE Kit](https://docs.m5stack.com/en/atom/atom_poe) + [M5Stack ADC Unit V1.1 (ADS1110)](https://docs.m5stack.com/en/unit/Unit-ADC_V1.1) + [PVSS-03](https://www.sanko-web.co.jp/product/pvssap/product-pvss-03/) 全天日射計
 → MQTT + UECS-CCM。
 [agri-node-poe-core](https://github.com/yasunorioi/agri-node-poe-core)
 ライブラリ上に薄く乗っているだけ。
 
 ## ハードウェア
 
-- **MCU**: M5Stack ATOM Lite (ESP32-PICO-D4)
+- **MCU**: [M5Stack ATOM Lite](https://docs.m5stack.com/en/core/ATOM%20Lite) (ESP32-PICO-D4)
 - **PoE / Ethernet**: M5Stack ATOM PoE Base (W5500 on SPI)
 - **ADC**: M5Stack ADC Unit V1.1 (ADS1110, I²C 0x48)
 - **センサー**: PVSS-03 全天日射計 (0–1 V → 0–1000 W/m² リニア)
